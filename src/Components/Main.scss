@@ -1,0 +1,19 @@
+.intro {
+  height: 50vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.intro h1 {
+  font-size: 4em;
+}
+
+.highlighted {
+  color: orange;
+}
+
+.mini-bio {
+  font-size: 0.5em;
+}

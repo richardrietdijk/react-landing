@@ -1,0 +1,28 @@
+.quotes-container {
+  padding-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quote {
+  font-size: 1.2em;
+  width: 20rem;
+  padding: 2px 20px;
+  font-style: italic;
+}
+
+.quoter {
+  padding: 20px 0px;
+  text-align: end;
+  color: orange;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@media only screen and (min-width: 768px) {
+  .quotes-container {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7em;
+}
+
+.fullname {
+  padding: 5px 10px;
+
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-underline-offset: 10px;
+}
+
+.rietdijk {
+  color: orange;
+}
+
+.socials {
+  padding: 5px 10px;
+}
+
+.socials a {
+  padding: 0px 5px;
+}
